@@ -1,0 +1,20 @@
+.lead__container {
+  width: 100%;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  /* от 1024 и до 1279 — для небольших ноутбуков */
+  .lead__container {
+    width: calc(100% - 48px * 2);
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+  .lead__container {
+    width: 100%;
+  }
+}

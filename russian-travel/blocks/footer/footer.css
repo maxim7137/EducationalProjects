@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin: 0 auto 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    flex-direction: column;
+    line-height: 1;
+  }
+}

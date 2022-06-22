@@ -1,0 +1,38 @@
+.place__title {
+  flex-basis: 460px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 4.5em;
+  line-height: 1.06;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__title {
+    flex-basis: 440px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .place__title {
+    flex-basis: 340px;
+    font-size: 2.625em;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    flex-basis: 43vw;
+    font-size: 2.2em;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__title {
+    flex-basis: 35px;
+    width: calc(100% - 16px * 2);
+    min-width: 288px;
+    margin: 0 auto;
+    font-size: 2em;
+  }
+}

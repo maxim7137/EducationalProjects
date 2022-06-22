@@ -1,0 +1,11 @@
+.header__lang-link {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.17;
+  transition: opacity 0.2s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.header__lang-list {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-list {
+    font-size: 1.125em;
+  }
+}

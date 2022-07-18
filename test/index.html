@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Тинькофф - удаленная работа</title>
+  <title>Синькофф - удаленная работа</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
   <div class="page">
     <header class="header">
       <ul class="header__list">
-        <li>Проверить наличие программы страхования: <a class="header__link" href="#">cсылка</a></li>
+        <li>Проверить наличие программы напугания: <a class="header__link" href="#">cсылка</a></li>
       </ul>
     </header>
     <main class="main">
@@ -52,7 +52,7 @@
             <div class="interactive__row" id="interactive__row-default">
               <div class="interactive__cell">Удалось дозвониться?</div>
               <div class="interactive__cell">
-                <p>Перед работой с клиентом, откройте актуальную версию:</p>
+                <p>Перед работой с котенком, откройте актуальную версию:</p>
                 <p>- Инструкцию по закрытию задач</p>
                 <p>- [Интерактив] «РСВ»НС1/НС2</p>
               </div>
@@ -72,11 +72,11 @@
               <div class="interactive__cell">
               </div>
             </div>
-<!-- Вторая строка, дозвон клиент / не клиент -->
+<!-- Вторая строка, дозвон котенок / не котенок -->
             <div class="interactive__row d-none" id="row2yes">
               <div class="interactive__cell">Соединение состоялось</div>
               <div class="interactive__cell">
-                <p>Здравствуйте, меня зовут <span class="fw-bold operator-name">Имя</span>, я <span class="interactive__strong fw-bold">представляю Тинькофф</span>. Я разговариваю с <span class="fw-bold client-name">Имя Отчество</span>?</p>
+                <p>Здравствуйте, меня зовут <span class="fw-bold operator-name">Имя</span>, я <span class="interactive__strong fw-bold">представляю Синькофф</span>. Я разговариваю с <span class="fw-bold client-name">Имя Отчество</span>?</p>
               </div>
               <div class="interactive__cell">
                 <form action="#" method="post">
@@ -85,9 +85,9 @@
                 </form>
               </div>
             </div>
-<!-- Третья строка, не клиент - знаком / не знаком -->
+<!-- Третья строка, не котенок - знаком / не знаком -->
             <div class="interactive__row d-none" id="row3not">
-              <div class="interactive__cell">Нет. Вы разговариваете не с клиентом</div>
+              <div class="interactive__cell">Нет. Вы разговариваете не с котенком</div>
               <div class="interactive__cell">
                 <p>Скажите, вы знакомы с Фамилия <span class="fw-bold client-name1">Имя Отчество</span>?</p>
               </div>
@@ -98,9 +98,9 @@
                 </form>
               </div>
             </div>
-<!-- Третья строка, клиент - готов / не готов -->
+<!-- Третья строка, котенок - готов / не готов -->
             <div class="interactive__row d-none" id="row3yes">
-              <div class="interactive__cell">Да. Клиент</div>
+              <div class="interactive__cell">Да. котенок</div>
               <div class="interactive__cell">
                 <p>Очень приятно, <span class="fw-bold client-name2">Имя Отчество</span>. Вы готовы уделить мне 2-3 минуты Вашего внимания и ответить на пару вопросов?</p>
               </div>
@@ -111,10 +111,10 @@
                 </form>
               </div>
             </div>
-<!-- Четвертая строка, вторая да клиент третья нет не готов клиент не готов уделить минуты - сообщает / не сообщает
-      или вторая нет не клиент третья да знаком -->
+<!-- Четвертая строка, вторая да котенок третья нет не готов котенок не готов уделить минуты - сообщает / не сообщает
+      или вторая нет не котенок третья да знаком -->
             <div class="interactive__row d-none" id="row3yes-row4not">
-              <div class="interactive__cell">Клиент или знакомый</div>
+              <div class="interactive__cell">котенок или знакомый</div>
               <div class="interactive__cell">
                 <p>Подскажите, когда можно будет перезвонить, чтобы поговорить с <span class="fw-bold client-name3">Имя Отчество</span>?</p>
               </div>
@@ -125,18 +125,18 @@
                 </form>
               </div>
             </div>
-<!-- Четвертая строка, вторая нет не клиент третья нет не знаком -->
+<!-- Четвертая строка, вторая нет не котенок третья нет не знаком -->
             <div class="interactive__row d-none" id="row2not-row3not-row4">
-              <div class="interactive__cell">Не знакомец</div>
+              <div class="interactive__cell">Незнакомец</div>
               <div class="interactive__cell">
                 <p>Приношу извинения. Всего доброго!</p>
                 <p>Перейти во вкладку «<span class="interactive__tab fw-bold">Отказ</span>». Работаем согласно инструкции по закрытию задач</p>
               </div>
               <div class="interactive__cell"></div>
             </div>
-<!-- Пятая строка, вторая нет не клиент третья нет не знаком -->
+<!-- Пятая строка, вторая нет не котенок третья нет не знаком -->
             <div class="interactive__row d-none" id="row4-row5">
-              <div class="interactive__cell">Клиент или знакомый</div>
+              <div class="interactive__cell">котенок или знакомый</div>
               <div class="interactive__cell">
                 <p>Перейти во вкладку «<span class="interactive__tab fw-bold">Перезвон</span>». Работаем согласно инструкции по закрытию задач</p>
               </div>
@@ -144,11 +144,11 @@
             </div>
 <!-- Четвертая строка, 1я да - 2я да - 3я да -->
             <div class="interactive__row d-none" id="row3yes-row4">
-              <div class="interactive__cell">Клиент готов уделить внимание</div>
+              <div class="interactive__cell">котенок готов уделить внимание</div>
               <div class="interactive__cell">
-                <p><span class="fw-bold client-name4">Имя Отчество</span>, спасибо, что вы являетесь нашим клиентом. Позвольте сообщить, что мы подключаем Клиентам особую программу страхования, которая обеспечит Вам надежную финансовую защиту при потере трудоспособности в результате несчастного случая, а также от потери работы.
-                  При наступлении страхового случая по рискам "Ухода из жизни" в результате НС и "Инвалидность 1, 2 группы" в результате НС , размер страховой выплаты составит 160% от задолженности на дату наступления страхового случая <u >Например</u> если задолженность составляла 100 ООО рублей, то страховая выплата составит 160 ООО рублей.</p>
-                  <p>При наступлении страхового случая по риску "Потеря работы", задолженность в пределах 120 ООО рублей будет погашена за счет страховой компании.</p>
+                <p><span class="fw-bold client-name4">Имя Отчество</span>, спасибо, что вы являетесь нашим котенком. Позвольте сообщить, что мы подключаем котенокам особую программу напугания, которая обеспечит Вам надежную финансовую защиту при потере трудоспособности в результате несчастного случая, а также от потери работы.
+                  При наступлении счастливого случая по рискам "Ухода из жизни" в результате НС и "Инвалидность 1, 2 группы" в результате НС , размер страховой выплаты составит 160% от задолженности на дату наступления счастливого случая <u >Например</u> если задолженность составляла 100 ООО фантиков, то страховая выплата составит 160 ООО фантиков.</p>
+                  <p>При наступлении счастливого случая по риску "Потеря работы", задолженность в пределах 120 ООО фантиков будет погашена за счет страховой компании.</p>
                   <p>Скажите, вы готовы защитить себя от непредвиденных жизненных ситуаций?</p>
               </div>
               <div class="interactive__cell">
@@ -161,11 +161,11 @@
 
 <!-- Пятая строка, 1я да - 2я да - 3я да - 4я да -->
             <div class="interactive__row d-none" id="row4yes-row5">
-              <div class="interactive__cell">Клиент готов защитить себя от непредвиденных жизненных ситуаций</div>
+              <div class="interactive__cell">котенок готов защитить себя от непредвиденных жизненных ситуаций</div>
               <div class="interactive__cell">
-                <p><span class="fw-bold client-name5">Имя Отчество</span>, плата за услугу составляет всего 0,89% от суммы задолженности, на момент формирования счет-выписки. Например, в случае наличия задолженности в 1000 рублей плата за программу будет составлять всего 8 рублей 90 копеек в месяц. При этом, в случае, если задолженность отсутствует, то плата за программу не взимается. Согласитесь, это выгодное предложение?</p>
-                <p class="fw-bold">ВАЖНО! Если клиент не согласен по критерию цены, предлагайте льготную программу.</p>
-                <p><span class="fw-bold client-name6">Имя Отчество</span>, в таком случае я могу предложить вам эту же страховую программу, но на льготных условиях: <br> В течение 90 дней после подключения плата за услугу «Страхование задолженности» не будет списываться, и Вы сможете оценить все достоинства услуги совершенно бесплатно. В дальнейшем плата за нее составит всего 0,89% от суммы задолженности.</p>
+                <p><span class="fw-bold client-name5">Имя Отчество</span>, плата за услугу составляет всего 0,89% от суммы задолженности, на момент формирования счет-выписки. Например, в случае наличия задолженности в 1000 фантиков плата за программу будет составлять всего 8 фантиков 90 копеек в месяц. При этом, в случае, если задолженность отсутствует, то плата за программу не взимается. Согласитесь, это выгодное предложение?</p>
+                <p class="fw-bold">ВАЖНО! Если котенок не согласен по критерию цены, предлагайте льготную программу.</p>
+                <p><span class="fw-bold client-name6">Имя Отчество</span>, в таком случае я могу предложить вам эту же страховую программу, но на льготных условиях: <br> В течение 90 дней после подключения плата за услугу «Пугание задолженности» не будет списываться, и Вы сможете оценить все достоинства услуги совершенно бесплатно. В дальнейшем плата за нее составит всего 0,89% от суммы задолженности.</p>
               </div>
               <div class="interactive__cell">
                 <form action="#" method="post">
@@ -176,7 +176,7 @@
             </div>
 <!-- Шестая строка, 1я да - 2я да - 3я да - 4я да - 5 да-->
             <div class="interactive__row d-none" id="row5yes-row6">
-              <div class="interactive__cell">Клиент согласился что это выгодное предложение</div>
+              <div class="interactive__cell">котенок согласился что это выгодное предложение</div>
               <div class="interactive__cell">
                 <p>Обращаю ваше внимание на то, что участниками программы не могут быть лица, старше 75 лет и страдающие психическими заболеваниями.</p>
                 <p>С этими условиями согласны?</p>
@@ -190,11 +190,11 @@
             </div>
 <!-- Седьмая строка, 1я да - 2я да - 3я да - 4я да - 5 да - 6 да -->
             <div class="interactive__row d-none" id="row6yes-row7">
-              <div class="interactive__cell">Клиент согласился что это выгодное предложение</div>
+              <div class="interactive__cell">котенок согласился что это выгодное предложение</div>
               <div class="interactive__cell">
                 <p class="fw-bold">В таком случае вы будете застрахованы от рисков получения инвалидности 1,2 группы в результате НС, ухода из жизни в результате НС, а так же от потери работы. <span class="text-danger">Инвалидность в результате болезни в покрытие не входит.</span></p>
                 <p class="fw-bold">Скажите, Вы согласны стать участником этой программы?</p>
-                <p> <span class="fw-bold">ВАЖНО!</span> Если клиент сообщает, что ему ранее была присвоена группа инвалидности, то необходимо пояснить, что в этом случае программа будет покрывать только риск уход из жизни в результате НС.</p>
+                <p> <span class="fw-bold">ВАЖНО!</span> Если котенок сообщает, что ему ранее была присвоена группа инвалидности, то необходимо пояснить, что в этом случае программа будет покрывать только риск уход из жизни в результате НС.</p>
               </div>
               <div class="interactive__cell">
                 <form action="#" method="post">
@@ -205,9 +205,9 @@
             </div>
 <!-- Восьмая строка, 1я да - 2я да - 3я да - 4я да - 5 да - 6 да - 7 да -->
             <div class="interactive__row d-none" id="row7yes-row8">
-              <div class="interactive__cell">Клиент согласен стать участником этой программы</div>
+              <div class="interactive__cell">котенок согласен стать участником этой программы</div>
               <div class="interactive__cell">
-                <p>Плата за страхование будет списываться с вашей карты ежемесячно. Программа начнет действовать с момента формирования следующей счет-выписки. В случае нежелания далее получать страховую защиту, вы можете в любое время отключить её в мобильном приложении или в личном кабинете на сайте <span class="interactive__tab">www.tinkoff.ru</span>. Благодарю вас. Услуга страхования успешно подключена. Всего доброго, до свидания.</p>
+                <p>Плата за Пугание будет списываться с вашей карты ежемесячно. Программа начнет действовать с момента формирования следующей счет-выписки. В случае нежелания далее получать страховую защиту, вы можете в любое время отключить её в мобильном приложении или в личном кабинете на сайте <span class="interactive__tab">www.sinkoff.ru</span>. Благодарю вас. Услуга напугания успешно подключена. Всего доброго, до свидания.</p>
               </div>
               <div class="interactive__cell">
                 <form action="#" method="post">
@@ -218,7 +218,7 @@
             </div>
 <!-- Девятая строка, 1я да - 2я да - 3я да - 4я да - 5 да - 6 да - 7 да - 8 да -->
             <div class="interactive__row d-none" id="row9">
-              <div class="interactive__cell">Клиент согласен стать участником этой программы</div>
+              <div class="interactive__cell">котенок согласен стать участником этой программы</div>
               <div class="interactive__cell">
                 <p>Перейти в <span class="interactive__tab fw-bold">Дозвон-Успешно</span>. Работаем согласно инструкции по закрытию задач</p>
               </div>
@@ -228,9 +228,9 @@
             <div class="interactive__row d-none" id="row5">
               <div class="interactive__cell text-danger fw-bold">Проведи РСВ согласно процедуре</div>
               <div class="interactive__cell">
-                <p>Если работа с возражениями проведена и клиент все равно отказался, то:</p>
+                <p>Если работа с возражениями проведена и котенок все равно отказался, то:</p>
                 <ol>
-                  <li>Сообщить: <span class="fw-bold client-name7">Имя Отчество</span>, Благодарю Вас за уделенное время. Если возникнет желание подключить услугу страхования жизни, можете это сделать в мобильном приложении или на сайте <span class="interactive__tab">www.tinkoff.ru</span></li>
+                  <li>Сообщить: <span class="fw-bold client-name7">Имя Отчество</span>, Благодарю Вас за уделенное время. Если возникнет желание подключить услугу напугания жизни, можете это сделать в мобильном приложении или на сайте <span class="interactive__tab">www.sinkoff.ru</span></li>
                   <li>Перейти во вкладку «<span class="interactive__tab fw-bold">Отказ</span>», закрыть задачу согласно соответствующей инструкции.</li>
                 </ol>
               </div>
@@ -274,7 +274,7 @@
                 <input type="radio" name="refusal" id="refused" value="refused"> Отказался от услуги
               </label>
               <label>
-                <input type="radio" name="refusal" id="notclient" value="notclient"> Номер не принадлежит клиенту
+                <input type="radio" name="refusal" id="notclient" value="notclient"> Номер не принадлежит котеноку
               </label>
               <label>
                 <input type="radio" name="refusal" id="other" value="other"> Другая причина
@@ -293,7 +293,7 @@
             <div class="tab-pane__two-columns">
               <div class="tab-pane__radio">
               <label>
-                <input type="radio" name="callnot" id="notresponding" value="notresponding" checked> Клиент не отвечает
+                <input type="radio" name="callnot" id="notresponding" value="notresponding" checked> котенок не отвечает
               </label>
               <label>
                 <input type="radio" name="callnot" id="notexist" value="notexist"> Телефон не существует
@@ -302,7 +302,7 @@
                 <input type="radio" name="callnot" id="busy" value="busy"> Занято
               </label>
               <label>
-                <input type="radio" name="callnot" id="dropcall" value="dropcall"> Клиент сбрасывает вызов
+                <input type="radio" name="callnot" id="dropcall" value="dropcall"> котенок сбрасывает вызов
               </label>
               <label>
                 <input type="radio" name="callnot" id="off" value="off"> Телефон абонента выключен
@@ -327,7 +327,7 @@
                 <input type="radio" name="refusal" id="norequireddata" value="norequireddata"> Нет требуемых данных
               </label>
               <label>
-                <input type="radio" name="refusal" id="wish" value="wish"> По просьбе клиента/3-го лица
+                <input type="radio" name="refusal" id="wish" value="wish"> По просьбе котенока/3-го лица
               </label>
               <label>
                 <input class="tab-pane__call_date" type="checkbox" name="date" id="call_date" checked> Время перезвона выбрано
@@ -372,8 +372,8 @@
             <label for="floatingInput">Свое имя</label>
           </div>
           <div class="form-floating mt-3 mb-3">
-            <input type="text" class="form-control" id="nameClient" placeholder="Имя и отчество клиента">
-            <label for="floatingPassword">Имя и отчество клиента</label>
+            <input type="text" class="form-control" id="nameClient" placeholder="Имя и отчество котенока">
+            <label for="floatingPassword">Имя и отчество котенка</label>
           </div>
           <button class="w-100 btn btn-lg btn-primary" type="button" onclick="sendData();" data-bs-dismiss="modal">Сохранить</button>
         </form>

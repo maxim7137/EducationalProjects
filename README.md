@@ -2,4 +2,5 @@
 
 Мои учебные проекты
 
-[Обо мне с проектами](http://maxim713.byethost13.com)
+[Бесплатный хостинг](http://maxim713.byethost13.com)
+[GitHub Pages](https://maxim7137.github.io/EducationalProjects/)

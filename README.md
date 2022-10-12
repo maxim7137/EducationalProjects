@@ -1,4 +1,5 @@
 # EducationalProjects
-Educational projects that will appear during your studies at Yandex.Practice.
 
-http://maxim713.byethost33.com
+Мои учебные проекты
+
+[Обо мне с проектами](http://maxim713.byethost13.com)
